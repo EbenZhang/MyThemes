@@ -1,0 +1,392 @@
+@-moz-document regexp(".*was21:8080.*") {
+/* i really want this to be global */
+
+.board-view {
+background: #555555;
+}
+  
+.hub-content {
+background: #222222;
+color: #CCCCCC;
+}
+
+.main-content {
+background: #222222;
+color: #CCCCCC;
+}
+
+.grid-gutter .grid-gutter-cell .grid-gutter-drop .grid-gutter-menu {
+background: #222222;
+}
+
+.grid-gutter-row {
+background: #222222 !important;
+}
+
+.blank-message {
+background: #332233;
+color: #CC9900;
+}
+  
+.node-content {
+color: #CCCCCC !important;
+}
+
+.pivot-filter-item a {
+color: #CCCCCC;
+}
+  
+.text {
+color: #CCCCCC;
+}
+
+.hub-pivot-content {
+background: #222222;
+}
+  
+.board-tile {
+background: #333344 !important;
+}
+
+    .taskboard-cell{
+        border-color: #888 !important;
+    }
+      
+    .agile-board .horizontal > .row > .cell {
+             border-color: #888 !important;
+    }
+    
+    .limit {
+        color: #888 !important;
+    }
+    
+.taskboard-cell .witTitle {
+color: #999999;
+}    
+    
+.taskboard-cell .witRemainingWork {
+color: #CCCCCC;
+}
+
+.tbTile .tbTileContent {
+background: #332233;
+border: none;
+}
+
+.tbTile .tbTileContent .witTitle {
+      background-color: #151515 !important;
+    color: #AAAAAA !important;
+}
+
+.tbTileContent {
+    background-color: #151515 !important;
+}
+    
+.tbTile .title{
+    color:white;
+}
+    
+.header-post11 #header-row {
+background: #222222;
+}
+
+.header-post11 #navWrapper {
+background-color: #222222;
+}
+
+.header-post11 .header-search > .search-text {
+background-color: black;
+}
+
+.header-post11 .header-search {
+background-color: black;
+}
+
+.sidebar-search .search-input-wrapper {
+border: 1px solid black;
+background-color: #222222;
+}
+
+.tree-view > ul.tree-children li.selected > a > div.node-content, .tree-view.focus > ul.tree-children li.selected > a > div.node-content, li.tree-drag-tile > a > div.node-content {
+background-color: #222222;
+border: 1px solid black;
+}
+ 
+.tree-view > ul.tree-children li.selected > a > div.node-content, .tree-view.focus > ul.tree-children li.selected > a > div.node-content, li.tree-drag-tile > a > div.node-content {
+background-color: #222222;
+border: 1px solid black;
+}
+
+.grid-gutter-row-normal {
+border: 1px solid black;
+}
+
+.grid-row-current {
+border: 1px solid black;
+}
+
+.splitter > .handleBar, .splitter > .handleBar-clone {
+background-color: black;
+}
+
+.hub-splitter.splitter.horizontal > .leftPane {
+border-right: 1px solid black;
+}
+
+.build-detail-view .header {
+background-color: #222222;
+border-bottom: 1px solid black;
+}
+
+.toolbar {
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+}
+
+
+.tree-view > ul.tree-children li.focus > a > div.node-content, 
+.tree-view > ul.tree-children li.hover > a > div.node-content, 
+.tree-view > ul.tree-children li.context-menu-active > a > div.node-content
+{
+background-color: #222222;
+border: 1px solid black;
+}
+
+.hub-title {
+color: #CCCCCC;
+}
+
+.hub-pivot {
+color: #444444;
+}
+
+.hub-pivot {
+background: #333333;
+}
+
+.hub-pivot a {
+color: #CCCCCC;
+}
+
+.toolbar .menu-bar .menu-item.hover,
+.workitemcontrol .menu-bar .menu-item.hover
+{
+background-color: #222222; 
+}
+
+.add-panel {
+background-color: #222222;
+border-left-color: black;
+}
+
+.combo {
+border: 1px solid black;
+background: #222222;
+}
+
+.ui-dialog-buttonpane {
+background-color: #222222;
+border: 1px solid black;
+}
+
+input {
+background: #222222;
+color: #CCCCCC;
+}
+
+.ui-dialog {
+background-color: #444444;
+box-shadow: 0px 0px 10px #808080;
+}
+
+body {
+color: white;
+background-color: #222222;
+}
+
+.ui-tabs .ui-tabs-nav {
+background-color: #222222;
+}
+
+.ui-widget-content {
+border: 1px solid black;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+background-color: #666666;
+}
+            
+.grid-row {
+color: #CCCCCC;
+}
+
+.grid-row:hover {
+background: #442233;
+}
+
+.grid-row-current {
+background: #333333;
+}
+
+.grid-row-selected {
+background: #332233 !important;
+}
+
+.grid-row-selected-blur {
+background: #332233 !important;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+background-color: #333333;
+border-bottom: 1px solid black;
+}
+
+.ui-dialog .ui-dialog-title {
+color: white;
+}
+
+.splitter > .handleBar.hover
+{
+    background-color: #444444;
+}
+
+.splitter > .handleBar,
+.splitter > .handleBar-clone
+{
+    background-color: black;
+}
+
+body {
+color: white;
+}
+
+.content-section {
+background-color: #222222;
+}
+
+.group-info-input {
+color: white;
+}
+
+.versioncontrol-explorer-view .source-path {
+border: 1px solid black;
+background-color: #222222;
+}
+
+.visual-progress-total-unallocated {
+background-color: #444444;
+}
+
+.ui-widget-overlay {
+background: #332233;
+}
+
+.splitter.toggle-button-enabled.collapsed > .handleBar {
+background-color: black;
+}
+
+.queue-build select {
+border: 1px solid black;
+}
+
+input, textarea, select {
+background-color: #222222;
+}
+
+.queue-build input[type='text'] {
+border: 1px solid black;
+}
+
+.workitem-info-bar {
+color: white;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+color: white;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+color: white;
+}
+
+input, button, textarea, select {
+color: white;
+}
+
+.modal-dialog label {
+color: #cccccc;
+}
+    
+    .vc-diff-viewer .code-line.deleted-content {
+        background-color: #773535;
+    }
+    
+    .vc-diff-viewer .code-line.added-content {
+        background-color: #2A5A2A;
+    }
+    
+    .vc-diff-viewer .code-line.highlighted-row {
+        background-color: #666;
+    }
+  
+    .vc-diff-viewer .code-line.deleted-content.highlighted-row {
+        background-color: rgba(176, 104, 104, 1);
+    }
+    
+        .vc-diff-viewer .code-line.added-content.highlighted-row {
+        background-color: rgba(80, 146, 80, 1);
+    }
+    
+    .vc-diff-viewer .ln-o,
+    .vc-diff-viewer .ln-m {
+        background-color: #AAA;
+        color: #222;
+    }
+    
+    .monaco-editor {
+        background-color: #222;
+    }
+    
+    .monaco-editor .token.keyword {
+        color: #66F;
+    }
+    
+    .monaco-editor .token {
+        color: #999;
+    }
+    
+    .monaco-editor .token.string {
+        color: #EF6464;
+    }
+    
+    .monaco-editor .line-numbers,
+    .monaco-editor .lines-decorations {
+         background-color: #999;
+        color: #222;       
+    }
+    
+    .monaco-editor .line-insert,
+    .monaco-editor .char-insert {
+        background-color: rgba(68, 165, 62, 0.25);
+    }
+
+
+   .monaco-editor .line-delete,
+    .monaco-editor .char-delete {
+        background-color: rgba(167, 49, 49, 0.79);
+    }
+
+    .dragHover {
+        background-color: #555;
+    }
+    
+    .combo > div.wrap > input.invalid, .combo.invalid > div.wrap > input {
+        background-color: #aa6555;
+        color: #EEE;
+    }
+    
+    .menu.sub-menu {
+        background-color: #444;
+        
+    }
+}
