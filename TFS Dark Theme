@@ -183,7 +183,9 @@ border-left-color: black;
 border: 1px solid black;
 background: #222222;
 }
-
+.combo-drop-popup,identity-picker-list-view{
+    background-color: #333333 !important;
+}
 .ui-dialog-buttonpane {
 background-color: #222222;
 border: 1px solid black;
@@ -385,8 +387,24 @@ color: #cccccc;
         color: #EEE;
     }
     
-    .menu.sub-menu {
-        background-color: #444;
+    .menu.sub-menu,menu-item {
+        background-color: #333333 !important;
         
+    }
+    .progress-text{
+        color: White !important;
+    }
+    .add-panel-button{
+        color:black !important;
+    }
+    .ui-dialog-titlebar-close{
+        color:white !important;
+        background-color:#333333 !important;
+    }
+    .menu-item.toggle-on{
+        background-color: #333333 !important;
+    }
+    .flash-message{
+        background-color: darkgreen !important;
     }
 }
