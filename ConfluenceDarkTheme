@@ -1,9 +1,12 @@
 @-moz-document url-prefix('https://helixleisure.atlassian.net/wiki')  {
-  body,.aui-page-panel,#main-header,#title-text,.acs-side-bar,h1,h2,h3,h4,h5,h6{
+  body,.aui-page-panel,#main-header,#title-text,.acs-side-bar,h1,h2,h3,h4,h5,h6,.wysiwyg-macro-body{
     color: white !important;
     background-color: #333333 !important;
   }
   #title-text a{
     color: white;
+  }
+  a:visited{
+    color:#3B73AF !important;
   }
 }
