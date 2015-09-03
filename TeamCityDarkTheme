@@ -1,0 +1,11 @@
+
+@-moz-document regexp(".*was21:8111.*") {
+  body,.overviewTypeTable,.projectHeaderTable,.build .projectHeader,statusTable,statusBlock,.successStatusBlock{
+    background-color: #333333 !important;
+    color: white;
+  }
+  
+  .failureStatusBlock{
+    background-color: darkred !important;
+  }
+}
