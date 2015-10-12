@@ -1,5 +1,6 @@
+@namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document url-prefix('https://helixleisure.atlassian.net/wiki')  {
-  body,.aui-page-panel,#main-header,#title-text,.acs-side-bar,h1,h2,h3,h4,h5,h6,.wysiwyg-macro-body,.aui-list-truncate li a.active, .aui-header, #content-title{
+  body,.aui-page-panel,#main-header,#title-text,.acs-side-bar,h1,h2,h3,h4,h5,h6,.wysiwyg-macro-body,.aui-list-truncate li a.active, .aui-header, #content-title,.aui-dropdown2-active,.aui-dropdown,time{
     color: white !important;
     background-color: #333333 !important;
   }
@@ -12,7 +13,13 @@
   a:visited{
     color:#3B73AF !important;
   }
-  .aui-button-primary:visited{
+  .aui-header li a{
    color:aliceblue !important;
+  }
+  td.code, td code, td.code div{
+   background-color: lightgray !important;
+  }
+  .ic-content{
+      color: Black!important;
   }
 }
