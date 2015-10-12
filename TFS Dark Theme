@@ -1,13 +1,14 @@
-@-moz-document regexp(".*was21:8080.*") {
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document regexp(".*was21:8080.*|.*10.2.13.21:8080.*") {
 /* i really want this to be global */
 
 .board-view {
 background: #555555;
 }
   
-.hub-content {
-background: #222222;
-color: #CCCCCC;
+.hub-content,.hub-pivot-content,.toolbar,input,.ui-dialog-content,.ui-dialog-buttonpane{
+background: #222222 !important;
+color: #CCCCCC !important;
 }
 
 .main-content {
@@ -152,8 +153,16 @@ background-color: #222222;
 border: 1px solid black;
 }
 
-.hub-title {
-color: #CCCCCC;
+.hub-title,.grid-row,.clickableTitle{
+color: WHITE !important;
+}
+.witRemainingWork{
+    background-color: WHITE !important;
+    border-radius: 3px;
+}
+  
+.grid-row-hover{
+    background-color:darkgrey !important;
 }
 
 .hub-pivot {
@@ -406,5 +415,9 @@ color: #cccccc;
     }
     .flash-message{
         background-color: darkgreen !important;
+    }
+    
+    .header-post11 #navWrapper{
+      background-color: black !important;
     }
 }
