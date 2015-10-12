@@ -1,6 +1,6 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document regexp(".*was21:8111.*") {
-  body,.overviewTypeTable,.projectHeaderTable,.build .projectHeader,statusTable,statusBlock,.successStatusBlock{
+  body,.overviewTypeTable,.projectHeaderTable,.build .projectHeader,statusTable,statusBlock,.successStatusBlock,.progress{
     background-color: #333333 !important;
     color: white;
   }
