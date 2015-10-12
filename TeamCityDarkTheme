@@ -1,8 +1,8 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document regexp(".*was21:8111.*") {
-  body,.overviewTypeTable,.projectHeaderTable,.build .projectHeader,statusTable,statusBlock,.successStatusBlock,.progress{
+  body,.overviewTypeTable,.projectHeaderTable,.build .projectHeader,statusTable,statusBlock,.successStatusBlock,.progress,span#sp_span_buildDetails a{
     background-color: #333333 !important;
-    color: white;
+    color: white!important;
   }
   
   .failureStatusBlock{
