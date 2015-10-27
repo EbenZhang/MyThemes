@@ -1,6 +1,33 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document regexp(".*was21:8111.*") {
-  body,.overviewTypeTable,.projectHeaderTable,.build .projectHeader,statusTable,statusBlock,.successStatusBlock,.progress,span#sp_span_buildDetails a{
+  body
+  ,table.overviewTypeTable /* build status table */
+  ,.successStatusBlock
+  ,.buildTypeContent
+  ,.runBuildDialog
+  ,.runBuildDialog .dialogHeader
+  ,#mainNavigation li.last.selected /*Build Queue*/, #mainNavigation a/* The link of the navigation bar */
+  ,#buildLabelsInner th, #buildLabelsInner td span.branchName
+  ,#buildQueueTable tr td, #buildQueueTable tr td .branchName
+  /*,#buildQueueContainerInner .actionBar
+  ,#agentsListInner .actionBar*/
+  ,.actionBar, .agentStatsFilter
+  ,#ufd-container li /*Dropdown items*/
+  ,.projectHeader,.buildTypeName, .projectName a
+  ,#projects_visibleFormDialog,#projects_visibleFormDialog .dialogHeader
+  ,.advancedSetting, .groupingTitle td
+  ,.saveVcsRootOptions
+  ,#sidebarAdmin
+  ,table.agents tr td, table.agents tr td.poolHeader a, table.agents thead tr th
+  ,#pool-boxes-container .pool-box div.head-row, #pool-boxes-container .pool-layout-content
+  ,#footer
+
+  /*,.overviewTypeTable,.projectHeaderTable,.build .projectHeader,
+  statusTable,statusBlock,.successStatusBlock,.progress,
+  span#sp_span_buildDetails a,.dialogHandle,.runningBuildStatus,#runCustomBuildContentDiv,
+  .historyFilterTable,#historyTableInner .actionBar,.modalDialogBody,
+  table.runnerFormTable,.advancedSetting,tr.groupingTitle td,.buildTypeContent,
+  #ufd-container li*/{
     background-color: #333333 !important;
     color: white!important;
   }
@@ -10,5 +37,12 @@
   }
   .fullStacktrace{
     color: red !important;
+  }
+  #ufd-container li:hover{
+      background-color: #112222 !important;
+  }
+  
+  .modifiedParam{
+      color: black !important;
   }
 }
