@@ -21,6 +21,7 @@
   ,table.agents tr td, table.agents tr td.poolHeader a, table.agents thead tr th
   ,#pool-boxes-container .pool-box div.head-row, #pool-boxes-container .pool-layout-content
   ,#footer
+  ,.runningBuildStatus
 
   /*,.overviewTypeTable,.projectHeaderTable,.build .projectHeader,
   statusTable,statusBlock,.successStatusBlock,.progress,
