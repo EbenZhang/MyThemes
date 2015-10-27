@@ -46,4 +46,8 @@
   .modifiedParam{
       color: black !important;
   }
+  #updatableChangesContainer tr.selectedTreeNode
+  ,#updatableChangesContainer tr span.branchName{
+      color: Black!important;
+  }
 }
