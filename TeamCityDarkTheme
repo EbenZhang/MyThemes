@@ -22,6 +22,8 @@
   ,#pool-boxes-container .pool-box div.head-row, #pool-boxes-container .pool-layout-content
   ,#footer
   ,.runningBuildStatus
+  ,td.project_content_holder tr td
+  ,#queuedBuildContainer
 
   /*,.overviewTypeTable,.projectHeaderTable,.build .projectHeader,
   statusTable,statusBlock,.successStatusBlock,.progress,
@@ -47,7 +49,8 @@
       color: black !important;
   }
   #updatableChangesContainer tr.selectedTreeNode
-  ,#updatableChangesContainer tr span.branchName{
+  ,#updatableChangesContainer tr span.branchName
+  ,.progress{
       color: Black!important;
   }
 }
