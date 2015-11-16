@@ -6,7 +6,9 @@
 background: #555555;
 }
   
-.hub-content,.hub-pivot-content,.toolbar,input,.ui-dialog-content,.ui-dialog-buttonpane{
+.hub-content,.hub-pivot-content
+    ,.toolbar,input,.ui-dialog-content
+    ,.ui-dialog-buttonpane, .internal-content-host, .wit-querygrid-widget-view{
 background: #222222 !important;
 color: #CCCCCC !important;
 }
